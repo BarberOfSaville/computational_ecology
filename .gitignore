@@ -1,0 +1,23 @@
+# Private and unpublished data
+data/raw/
+data/private/
+projects/ground_cover/data
+projects/ground_cover/outputs
+projects/specimen_sheet_cleanup/data
+projects/specimen_sheet_cleanup/outputs
+projects/weather_download/data
+projects/weather_download/outputs
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Secrets
+.env
+credentials.json
+
+# Temporary files
+.ipynb_checkpoints/
+.DS_Store
